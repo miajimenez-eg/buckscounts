@@ -10,6 +10,59 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #1e3932;
 }
 
 /* your code */
+
+body {
+  width: 520px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 110px;
+}
+
+h1 {
+  font-size: 44px;
+  color: #f2f0eb;
+}
+
+header, [for="city-sbux-count"] {
+  background-color: lightgray;
+  padding: 12px 12px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+/* [for="city-sbux-count"] {
+  text-align: left;
+} */
+
+.city-list {
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 220px;
+}
+
+.city-list div {
+  background-color: #00754a;
+  margin-left: 8px;
+  padding: 3px 0px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+
+
+
+
+
+
+
