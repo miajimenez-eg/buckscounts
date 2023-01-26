@@ -28,7 +28,7 @@ nav {
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 3em;
   color: #f2f0eb;
 }
 
@@ -38,10 +38,6 @@ header, [for="city-sbux-count"] {
   border-radius: 3px;
   margin-bottom: 12px;
 }
-
-/* [for="city-sbux-count"] {
-  text-align: left;
-} */
 
 .city-list {
   border: 1px solid lightgrey;
